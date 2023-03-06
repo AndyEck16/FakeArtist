@@ -286,7 +286,7 @@ def main():
         clearScreen()
         printPlayersAndWordCounts(gameState)
 
-        userPrompt = "Select Option: \n"
+        userPrompt = "Type number of an option and then hit [enter]: \n"
         for idx, userOption in enumerate(optionList):
             userPrompt = userPrompt + "  {}: {}\n".format(idx + 1, userOption.name)
         
