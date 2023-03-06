@@ -16,7 +16,9 @@ All players collaborate on the same picture and word, even the player who is not
 
 One at a time, players make a new contiunous line on the drawing.
 
-After two lines are drawn, all players vote on who they think wasn't given the word at the beginning.
+After each player draws two lines, all players vote on who they think wasn't given the word at the beginning.
+
+If the player with the most votes is _not_ the fake artist, then the fake artist wins
 
 If the player who got the most votes is indeed the Fake Artist who didn't know the word, that player gets to guess on what the secret prompt is that the rest of the players were given.
 
@@ -25,9 +27,9 @@ If the group votes for the wrong player, or if the Fake Artist correctly guesses
 ## What this tool does
 * Controls adding and removing players from the game
 * Allows each player to add words to a list that other players cannot see
-* Play one round of fake artist which involves:
+* Manages selecting and displaying words to use for rounds of Fake Artist, which involves:
   * Secretly choosing one of the players to be the fake artist
-  * Picking a secret prompt that is _not_ from that players list to be the secret word
+  * Picking a secret prompt that is _not_ from that player's list to be the secret word
   * Showing the word to all players except for the fake artist, who will instead see a message telling them they don't get to see the word
 
 
