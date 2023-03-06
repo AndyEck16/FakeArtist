@@ -5,14 +5,21 @@ Python script to support playing rounds of Fake Artist Goes To New York
 
 ## Dependencies
 Ran and tested on Python 3.8.13 using Anaconda3
-Numpy version 1.22.3
+
+* Python 3.8.13
+* Numpy version 1.22.3
 
 ## Game Overview
 The premise of the game is that all players except for one (the Fake Artist) are given a secret prompt to draw.
+
 All players collaborate on the same picture and word, even the player who is not given the prompt.
+
 One at a time, players make a new contiunous line on the drawing.
+
 After two lines are drawn, all players vote on who they think wasn't given the word at the beginning.
+
 If the player who got the most votes is indeed the Fake Artist who didn't know the word, that player gets to guess on what the secret prompt is that the rest of the players were given.
+
 If the group votes for the wrong player, or if the Fake Artist correctly guesses the prompt (or gets close enough), the fake artist wins.
 
 ## What this tool does
@@ -26,6 +33,7 @@ If the group votes for the wrong player, or if the Fake Artist correctly guesses
 
 ## Directions on how to use
 Open a cmd terminal using either anaconda cmd.exe, or normal cmd terminal if you have numpy installed with your python
+
 Run program main.py using an Anaconda cmd.exe prompt, or python prompt if you have numpy set up on it.
 (You can also run this in PyCharm using the debugger, but the screen won't get cleared properly to hide words from other players. Get around this by resizing the output pane to be very short)
 
